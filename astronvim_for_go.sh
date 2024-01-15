@@ -13,3 +13,7 @@ echo -e "\nrequire('lspconfig').gopls.setup{\n\ton_attach = function()\n\tvim.ke
 echo -e "\nexport PATH=$PATH:$HOME/go/bin" >> .bashrc
 # restart terminal
 exit
+
+
+# for python type:-
+# :LspInstall pyright
